@@ -37,6 +37,8 @@ The Socrata API token is stored in a `.env` file and is excluded from GitHub usi
 
 ## Visualizations
 
+
+
 ### Complaints by Borough
 
 ![NYC 311 Complaints by Borough](complaints_by_borough.png)
@@ -48,15 +50,24 @@ The Socrata API token is stored in a `.env` file and is excluded from GitHub usi
 ## How to Run
 
 1. Clone this repository.
-
 2. Create a Python virtual environment.
-
 3. Install the required packages.
-
 4. Add your Socrata API token to a `.env` file.
-
 5. Run `analysis.py`.
 
 ```bash
 
 python3 [analysis.py](http://analysis.py)
+```
+
+## Project Structure
+
+- `analysis.py` — main Python analysis script
+
+- `requirements.txt` — Python packages needed to run the project
+
+- `complaints_by_borough.png` — complaints by borough visualization
+
+- `complaints_over_time.png` — complaints over time visualization
+
+- `.gitignore` — protects local files and secrets
