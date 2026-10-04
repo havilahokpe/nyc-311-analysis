@@ -60,14 +60,24 @@ The Socrata API token is stored in a `.env` file and is excluded from GitHub usi
 python3 [analysis.py](http://analysis.py)
 ```
 
+
+
 ## Project Structure
 
 - `analysis.py` — main Python analysis script
-
 - `requirements.txt` — Python packages needed to run the project
-
 - `complaints_by_borough.png` — complaints by borough visualization
-
 - `complaints_over_time.png` — complaints over time visualization
-
 - `.gitignore` — protects local files and secrets
+
+## Key Findings
+
+- Noise — Residential was the most common complaint type, with 263 complaints.
+
+- Illegal Parking was the second most common complaint type, with 184 complaints.
+
+- Brooklyn had the highest number of complaints among the boroughs analyzed, with 347 complaints.
+
+- Queens followed with 235 complaints, while Manhattan had 206.
+
+- Complaints were relatively consistent across the two dates analyzed, with 508 complaints on October 1 and 492 on October 2.
